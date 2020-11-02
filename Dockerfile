@@ -1,4 +1,4 @@
-FROM tktcorporation/aws-sam-cli:node12-latest
+FROM amazon/aws-sam-cli-build-image-nodejs12.x:latest
 
 WORKDIR /var/src
 
